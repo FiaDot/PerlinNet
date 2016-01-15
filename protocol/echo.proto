@@ -1,0 +1,7 @@
+syntax = "proto3";
+package tutorial;
+
+message Echo {
+  string msg = 1;
+  int32 id = 2;  // Unique ID number for this person.
+}
